@@ -1,0 +1,22 @@
+﻿#para1{
+    background-color:aqua;
+    height:200px;
+    color : yellow;
+
+}
+#para2{
+    background-color:hotpink;
+    height: 180px;
+    color:darkgoldenrod;
+}
+p{
+    text-align:center;
+}
+
+h1{
+    color:burlywood;
+    background-color:gold;
+}
+.commonFont{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
