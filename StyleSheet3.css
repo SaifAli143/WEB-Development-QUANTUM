@@ -1,0 +1,47 @@
+﻿body
+{
+}
+.content.card{
+    width:97% !important;
+    margin-bottom:20px;
+    margin-top:20px;
+    border: none;
+    box-shadow:4px 4px 4px #85C1E9;
+    padding-right: 15px !important;
+}
+img{
+    height:150px;
+}
+.footer{
+    position:relative;
+    top:10px;
+    height:117px;
+    background:#E5E8E8;
+}
+.content{
+    width:90%;
+}
+.content .row{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.form.control{
+    width:50%;
+}
+.custom.btn{
+    position:relative;
+    top:10px;
+}
+/* media query for mobile*/
+
+@media only screen and (min-devices-width:320px) and (max-devices-width:480px) {
+    .form.control {
+        width: 100%;
+    }
+}
+/* media query for tabs*/
+@media only screen and (min-devices-width:750px) and (max-devices-width:1024px) {
+    .form.control {
+        width: 70%;
+    }
+}

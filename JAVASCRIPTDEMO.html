@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="d1"></div>
+    <div id="d2"></div>
+<script>
+    var name = "saif";
+    var age = 25;
+    var salary = 27500;
+
+    console.log(name);
+    console.log(age);
+    console.log(salary);
+
+    /*var a = 1;
+    while (a <= 20) {
+       if (a % 2 == 0) {
+      //      console.log(a)
+       // }
+      // a++;
+        //do {
+        //    if (a % 2 != 0) {
+        //        console.log(a);
+        //    }
+        //    a++;
+        //}
+        //while (a <= 20);
+
+        //for (var i = 0; i <= 20; i++) {
+          //  console.log(a);
+       // }
+   //* function addition() {
+        var a = 10; var b = 20;
+        var c = a + b;
+        console.log("Addition is" + c)
+    }
+    addition();
+    function substract(a,b) {
+        var c = a - b;
+        console.log("Substract is" + c);
+    }
+    substract(80, 50);
+
+    function multiply(a, b) {
+        var c = a * b;
+        return c;
+        
+    }
+
+    var result = multiply(5, 5);
+    console.log("Multiple is" + result);
+
+    */
+    var names = ["saif", "hayat", "hasnain", "mahir"];
+    var nums = [59, 87, 78, 98, 43];
+
+    names.push("arhaan");
+    names.unshift("Shaikhs");
+
+    names.pop();
+    names.shift();
+    names.splice(1, 0, "arhaan", "mahir");
+
+    var list = names.slice(2);
+
+
+    document.getElementById("d1").innerHTML = names;
+
+    document.getElementById("d2").innerHTML = list;
+</script>
+</body>
+</html>
